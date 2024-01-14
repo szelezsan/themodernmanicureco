@@ -1,0 +1,40 @@
+html {
+    background-color: rgb(240, 234, 228);
+}
+
+.logo {
+    width: 100%;
+    min-width: 50vw;
+    max-height: 100px;
+    height: 20vh;
+    text-align: center;
+    justify-content: center;
+    padding: 1vh;
+    color: rgb(157, 131, 109);
+    font-size: 2vw;   
+}
+
+.navigation {
+    font-size: 14px;
+    font-family: 'Abril Fatface', serif;
+    color: rgb(157, 131, 109);
+    font-size: 20px;
+    text-align: center;
+}
+
+.topnav {
+    color: rgb(157, 131, 109);
+    text-align: center;
+    justify-content: space-between;
+    padding: 1vw;
+    
+}
+
+.topnav a {
+    justify-content: space-between;
+    color:  rgb(157, 131, 109);
+}
+
+.topnav a:hover {
+    color:rgb(0, 0, 0);
+}
