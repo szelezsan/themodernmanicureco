@@ -33,8 +33,80 @@ html {
 .topnav a {
     justify-content: space-between;
     color:  rgb(157, 131, 109);
+    padding: 30px;
 }
 
 .topnav a:hover {
     color:rgb(0, 0, 0);
+}
+
+.welcome{
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin:20px;
+    
+}
+
+.card1 , .card2, .card3{
+    background-color: rgb(157, 131, 109);
+    width: 400px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.price-card{
+    display: flex;
+}
+
+.pricelist{
+    background-color: rgb(157, 131, 109);
+    border-radius: 20px;
+    width: 80%;
+    padding: 30px;
+    justify-content: center;
+    display:inline;
+}
+
+.cards{
+    display:flex;
+}
+
+.home-img{
+    width:400px;
+    height: auto;
+    bottom: 10px;
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+    color:rgb(240, 234, 228)
+}
+
+h2:hover{
+    color:black;
+}
+
+.footer{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+    padding-bottom: 30px;
+}
+
+a{
+    padding-left: 60px;
+    padding-right: 60px;
+    color:black
+}
+
+a:hover, footer:hover{
+    color:rgb(126, 105, 88);
 }
