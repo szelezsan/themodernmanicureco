@@ -113,6 +113,7 @@ hr{
 
 .price-card{
     display: flex;
+    margin-top:60px;
 }
 
 .pricelist{
@@ -137,6 +138,27 @@ hr{
     box-sizing: border-box;
     text-align: left;
 }
+
+.map{
+    padding-right: 70px;
+    padding-top: 50px;
+    width: 60%;
+    height: 600px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.contact-main{
+    columns: 2;
+}
+
+.contact-info, .social{
+    text-align: center;
+    padding:20px;
+    font-size: 20px;
+
+}
+
 
 .prices{
     text-align: right;
@@ -174,15 +196,13 @@ h2:hover{
 .footer{
     font-size: 20px;
     justify-content: center;
-    margin: 30px;
     padding-bottom: 30px;
 }
 
-.contact-info{
-    justify-content: center;
-    display: flex;
-    padding: 10px;
+.contact{
+    width:30%;
 }
+
 
 .social{
     justify-content: center;
@@ -228,6 +248,7 @@ textarea {
 /* Style the submit button with a specific background color etc */
 .message-header{
     padding: 10px;
+    text-align: center;
 }
 input[type="submit"] {
     background-color: rgb(255, 255, 255);
@@ -253,8 +274,10 @@ input[type="submit"]:hover {
     padding: 3vw;
     margin: 3vw;
     justify-content: center;
-    display: flex;
-    width:50%;
+    text-align: left;
+    width: 80%;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 label {
