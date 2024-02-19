@@ -119,9 +119,11 @@ hr{
     background-color: rgb(189, 164, 144);
     border-radius: 20px;
     padding: 20px;
-    width:80%;
+    margin-left:250px;
+    width:60%;
     height: 700px;
     font-family: "Bodoni Moda", serif;
+    
 }
 
 .pl-header{
