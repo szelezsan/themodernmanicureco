@@ -111,9 +111,12 @@ hr{
     min-height: 400px;
     padding: 20px;
     justify-content: center;
-    display:flex;
-    flex:1;
+    width:80%;
     font-family: "Bodoni Moda", serif;
+}
+
+.pl-header{
+    margin-bottom: 30px;
 }
 
 .cards{
