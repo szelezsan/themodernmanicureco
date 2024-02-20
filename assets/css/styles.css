@@ -159,13 +159,16 @@ hr{
 
 }
 
-
 .prices{
     text-align: right;
     padding-left: 10px;
     width: 70%;
     display: inline-block;
     box-sizing: border-box;
+}
+
+.services:hover, .services:hover{
+    
 }
 
 .cards{
@@ -282,12 +285,25 @@ input[type="submit"]:hover {
 }
 
 label {
-    font-family: "Roboto", sans-serif;
+    font-family: "Bodoni Moda", serif;
     color: rg;
 }
 
-.purple{
-    display: flex;
-    width:800px;
-    height:auto;
+.policy{
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    margin: 100px;
+    text-align: justify;
+}
+
+.policy h1{
+    text-align: center;
+}
+
+.policy h2{
+    color:black
+}
+
+.policy h2:hover{
+    color: rgb(189, 164, 144);
 }
