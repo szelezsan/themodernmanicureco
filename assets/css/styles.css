@@ -299,3 +299,82 @@ label {
 .policy h2:hover{
     color: rgb(189, 164, 144);
 }
+
+@media(min-width: 1281px){
+
+}
+
+/* Laptops, Desktops, 1025px to 1280px */
+@media (min-width:1025px) and (max-width:1280px){}
+
+
+/* Tablets/Ipads, 768px to 1024px */
+@media (min-width:768px) and (max-width:1024px){}
+
+/* Low resolution tablets, mobiles-Landscape, 481px to 767px */
+@media (min-width:481px) and (max-width:767px){}
+
+/* Most of smartphones-portrait, 320px to 479px */
+@media (min-width:320px) and (max-width:480px){
+    .navigation{
+        width:100%;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+
+    .welcome{
+        margin: 20px;
+        font-size: 15px;
+    }
+
+    .signature{
+        font-size:25px;
+    }
+
+    .cards{
+        display:inline-block;   
+    }
+
+    .card1, .card2, .card3{
+        width:80%;
+        font-size: 15px;
+    }
+
+    .home-img{
+        width:100%;
+    }
+
+    .cards h2{
+        text-align: center;
+    }
+    /* Footer Styling */
+    .footer{
+        font-size: 15px;
+    }
+
+    .social{
+        justify-content: center;
+    }
+    
+    .fa-solid, .fa-phone {
+        padding-right:40px;
+    }
+    
+    .fa-solid, .fa-envelope {
+        padding-left:40px;
+    }
+    /* Pricelist styling */
+    .pricelist{
+        width: 100%;
+        margin:0;
+        height:auto;
+    }
+
+    /* Policy */
+    .policy{
+        width:90%;
+        margin:20px;
+    }
+}
