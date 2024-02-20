@@ -140,17 +140,13 @@ hr{
 }
 
 .map{
-    padding-right: 70px;
-    padding-top: 50px;
-    width: 60%;
-    height: 600px;
-    display: inline-block;
-    box-sizing: border-box;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left: 100px;
 }
 
-.contact-main{
-    columns: 2;
-}
 
 .contact-info, .social{
     text-align: center;
@@ -165,10 +161,6 @@ hr{
     width: 70%;
     display: inline-block;
     box-sizing: border-box;
-}
-
-.services:hover, .services:hover{
-    
 }
 
 .cards{
@@ -240,7 +232,7 @@ textarea {
     display: flex;
     justify-content: left;
     width: 100%; /* Full width */
-    padding: 4px; /* Some padding */
+    padding: 5px; /* Some padding */
     border: 1px solid rgb(0, 0, 0); /*Border color */
     border-radius: 5px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -276,10 +268,10 @@ input[type="submit"]:hover {
     border-radius: 20px;
     background-color: rgb(157, 131, 109);
     padding: 3vw;
-    margin: 3vw;
+    margin: 5vw;
     justify-content: center;
     text-align: left;
-    width: 80%;
+    width: 90%;
     display: inline-block;
     box-sizing: border-box;
 }
