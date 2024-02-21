@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
+   
 
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,15 +30,25 @@
     <div class="logo"><img src="assets/photos/logonude.png">
     </div>
     <hr>
-    <div class="navigation">
-        <div class="topnav">
-            <a href="index.html">Home</a>
+     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home" class="active">Menu</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="index.html">Home</a>
             <a href="pricelist.html">Pricelist</a>
             <a href="contact.html">Contact</a>
             <a href="checklist.html">Policy</a>
             <a href="https://www.fresha.com/" target="_blank">Book Appointment</a>
-        </div>
     </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
     </header>
     <main>
     <div class="flex-wrapper">
@@ -95,5 +106,15 @@
         </div>
     </footer>
 </div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 </body>
 </html>
