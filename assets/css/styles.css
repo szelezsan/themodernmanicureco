@@ -40,8 +40,7 @@ header{
 hr{
     margin: 0;
 }
-
-.navigation {
+.myLinks {
     font-family: 'Abril Fatface', serif;
     color: rgb(157, 131, 109);
     font-size: 20px;
@@ -318,15 +317,136 @@ label {
 
 /* Laptops, Desktops, 1025px to 1280px */
 @media (min-width:1025px) and (max-width:1280px){}
-    .burger, .active{
+    .icon, .active{
     display: none;
     }
 
 /* Tablets/Ipads, 768px to 1024px */
-@media (min-width:768px) and (max-width:1024px){}
+@media (min-width:768px) and (max-width:1024px){
+        /* Burger menu */
+     /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(189, 164, 144);
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav .myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-family: "Bodoni Moda", serif;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgb(189, 164, 144);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: rgb(189, 164, 144);
+    color: white;
+  } 
+
+  .cards{
+    display:grit;
+    overflow: auto;
+    white-space: nowrap;
+    padding:10px;
+}
+
+.card1, .card2, .card3{
+    width:60%;
+    font-size:20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-img{
+    justify-content: center;
+    display: grit;
+    place-items: center;
+    width: auto;
+    max-height: 400px;
+
+}
+}
 
 /* Low resolution tablets, mobiles-Landscape, 481px to 767px */
-@media (min-width:481px) and (max-width:767px){}
+@media (min-width:481px) and (max-width:767px){
+        /* Burger menu */
+     /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(189, 164, 144);
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav .myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-family: "Bodoni Moda", serif;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgb(189, 164, 144);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: rgb(189, 164, 144);
+    color: white;
+  }
+
+  .cards{
+    display:inline-block;   
+}
+
+.card1, .card2, .card3{
+    width:80%;
+    font-size: 15px;
+}
+}
 
 /* Most of smartphones-portrait, 320px to 479px */
 @media (min-width:320px) and (max-width:480px){
@@ -419,7 +539,7 @@ label {
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
+  .topnav .myLinks {
     display: none;
   }
   
