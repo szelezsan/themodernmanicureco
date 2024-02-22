@@ -22,6 +22,10 @@ html {
     margin-top: 10px;
 }
 
+h1{
+    text-align: center;
+}
+
 .clear {
     padding: 20px;
 }
@@ -73,7 +77,7 @@ hr {
     color: rgb(0, 0, 0);
 }
 
-.burger,
+.icon,
 .active {
     display: none;
 }
@@ -162,11 +166,22 @@ hr {
     text-align: left;
 }
 
-.map {
-    width: 100%;
-    height: 100%;
+.map{
+    overflow: hidden;
+    padding-bottom: 30%;
     position: relative;
-    margin-left: 100px;
+    height: 0;
+    margin: 60px;
+    margin-top:30px;
+}
+
+.map iframe{
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    border-radius: 25px;
 }
 
 .contact-info {
@@ -252,7 +267,7 @@ input[type="email"],
 select,
 textarea {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     width: 100%; /* Full width */
     padding: 5px; /* Some padding */
     border: 1px solid rgb(0, 0, 0); /*Border color */
@@ -263,26 +278,18 @@ textarea {
     resize: both; /* Allow the user to vertically and horizontally resize the textarea */
 }
 
+input[type="submit"][value="Submit"]{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-left: 530px;
+}
+
+
+
 /* Style the submit button with a specific background color etc */
 .message-header {
     padding: 10px;
     text-align: center;
-}
-input[type="submit"] {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    width: 100px;
-    font-size: 20px;
-    text-align: center;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type="submit"]:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(157, 131, 109);
 }
 
 /* Add a background color and some padding around the form */
@@ -300,6 +307,8 @@ input[type="submit"]:hover {
 
 label {
     font-family: "Bodoni Moda", serif;
+    padding:10px;
+    font-size:18px;
 }
 
 .policy {
@@ -324,7 +333,7 @@ label {
 
 /* Large devices over 1281px */
 @media (min-width: 1281px) {
-    .burger,
+    .icon,
     .active {
         display: none;
     }
@@ -332,18 +341,113 @@ label {
     .pricelist {
         max-width: 60%;
     }
+
+    input[type="submit"][value="Submit"]{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        margin-left: 530px;
+    }
+
+    .map{
+        overflow: hidden;
+        padding-bottom: 30%;
+        position: relative;
+        height: 0;
+        margin: 60px;
+        margin-top:30px;
+    }
+    
+    .map iframe{
+        left:0;
+        top:0;
+        height: 100%;
+        width:100%;
+        position: absolute;
+        border-radius: 25px;
+    }
+
+    h2:hover {
+        color: black;
+    }
+
+    .flex-wrapper h1{
+        text-align: center;
+        font-size: 30px;
+    }
 }
 
 /* Laptops, Desktops, 1025px to 1280px */
 @media (min-width: 1025px) and (max-width: 1280px) {
+    .icon,
+    .active {
+        display: none;
+    }
+
+.topnav{
+    width:100%;
+    max-width:1280px;
+    margin:0;
 }
-.icon,
-.active {
-    display: none;
+
+.topnav a{
+    width:100%;
+    padding:50px;
 }
 
 .pricelist {
     max-width: 60%;
+}
+
+.map{
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+    height: 0;
+    margin: 60px;
+    margin-top:30px;
+}
+
+.map iframe{
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    border-radius: 25px;
+}
+
+input[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    padding:10px;
+    margin: 40px;
+}
+
+input[type="submit"][value="Submit"]{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-left: 530px;
+}
+
+h2:hover {
+    color: black;
+}
+
+.flex-wrapper h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.gdpr-contact{
+    text-align: right;
+    margin-top:90px;
+}
 }
 
 /* Tablets/Ipads, 768px to 1024px */
@@ -392,6 +496,10 @@ label {
         color: white;
     }
 
+    .welcome{
+        margin:20px;
+    }
+
     .cards {
         overflow: auto;
         padding: 10px;
@@ -415,10 +523,20 @@ label {
 
     .price-wrapper {
         width: 100%;
-        margin: 20px;
+        margin: 0px;
+        margin-top: 0px;
     }
     .pricelist {
-        width: 150%;
+        max-width:800px;
+        height: auto;
+        margin:15px;
+        margin-left: 10;
+        width:97%;
+        margin-top: 0;
+    }
+
+    .price-card{
+        margin-top:20px;
     }
 
     .pricelist h1 {
@@ -427,6 +545,86 @@ label {
 
     .pricelist h2 {
         font-size: 22px;
+    }
+
+    .services, .prices {
+        padding:15px;
+    }
+
+    h2:hover {
+        color: black;
+    }
+
+    .flex-wrapper{
+        margin: 0px;
+    }
+
+    .flex-wrapper h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .contact{
+        margin:15px;
+        width:97%;
+    }
+
+    input[type="submit"][value="Submit"]{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        margin-left: 300px;
+    }
+
+    .map{
+        overflow: hidden;
+        padding-bottom: 30%;
+        position: relative;
+        height: 0;
+        margin: 20px;
+        margin-top:30px;
+    }
+    
+    .map iframe{
+        left:0;
+        top:0;
+        height: 100%;
+        width:100%;
+        position: absolute;
+        border-radius: 25px;
+    }
+
+    /* Footer */
+    .footer{
+        display: grid;
+        margin-bottom: 40px;
+
+    }
+
+    .social a{
+        display: grid;
+        width:100%;
+        padding:15px;
+    }
+
+    .fa-solid,
+    .fa-phone {
+    padding: 8px;
+    padding-bottom: 30px;
+}
+
+    .fa-solid,
+    .fa-envelope {
+        padding: 8px;
+    }
+
+    .policy{
+        padding:0;
+        margin:30px;
+    }
+
+    .gdpr-contact{
+        text-align: right;
+        margin-top:90px;
     }
 }
 
@@ -486,6 +684,32 @@ label {
         width: 80%;
         font-size: 15px;
     }
+
+    h2:hover {
+        color: black;
+    }
+
+    /* Footer */
+    .footer{
+        display: grid;
+        margin-bottom: 40px;
+
+    }
+
+    .social a{
+        display: grid;
+        width:70%;
+    }
+
+    .flex-wrapper h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .gdpr-contact{
+        text-align: right;
+        margin-top:90px;
+    }
 }
 
 /* Most of smartphones-portrait, 320px to 479px */
@@ -496,6 +720,10 @@ label {
 
     h1 {
         font-size: 20px;
+    }
+
+    .selfie{
+        width:40%;
     }
 
     .welcome {
@@ -532,20 +760,24 @@ label {
     }
 
     .social a {
-        font-size: 15px;
-        padding: 30px;
+        font-size: 18px;
+        padding: 15px;
         justify-content: center;
         text-align: center;
+        display:grid;
     }
+
 
     .fa-solid,
     .fa-phone {
         font-size: 15px;
+        padding:10px;
     }
 
     .fa-solid,
     .fa-envelope {
         font-size: 15px;
+        padding:10px;
     }
     /* Pricelist styling */
     .pricelist {
@@ -555,8 +787,20 @@ label {
     }
 
     .price-card {
-        margin: 20px;
+        margin: 25px;
         width: 120%;
+    }
+
+    .services{
+        text-align: left;
+    }
+
+    .prices{
+        text-align: right;
+    }
+
+    h2:hover {
+        color: black;
     }
 
     /* Policy */
@@ -566,13 +810,22 @@ label {
     }
 
     /* Contact page */
-    .map {
-        width: 100%;
-        max-width: 25%;
-        height: auto;
-        margin: 7vw;
-        display: flex;
-        margin-left: 20px;
+    .map{
+        overflow: hidden;
+        padding-bottom: 30%;
+        position: relative;
+        height: 0;
+        margin: 20px;
+        margin-top:30px;
+    }
+    
+    .map iframe{
+        left:0;
+        top:0;
+        height: 100%;
+        width:100%;
+        position: absolute;
+        border-radius: 25px;
     }
 
     /* Burger menu */
@@ -617,5 +870,33 @@ label {
     .active {
         background-color: rgb(189, 164, 144);
         color: white;
+    }
+
+    /* Footer */
+    .footer{
+        display: grid;
+        margin-bottom: 40px;
+    }
+
+    .social a{
+        display: grid;
+    }
+
+    .flex-wrapper h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .policy{
+        font-size:15px;
+    }
+
+    .policy h1{
+        font-size: 20px;
+    }
+
+    .gdpr-contact{
+        text-align: right;
+        margin-top:70px;
     }
 }
