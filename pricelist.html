@@ -1,96 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--Google Fonts-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
-    </style> 
-
-    <!--Favicons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicons/site.webmanifest">
-    <title>The Modern Manicure Co.</title>
-</head>
-<body>
-    <header>
-        <div class="logo"><img src="assets/photos/logonude.png">
-        </div>
-        <hr>
-         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Top Navigation Menu -->
-    <div class="topnav">
-        <a href="#home" class="active">Menu</a>
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks" class="myLinks">
-            <a href="index.html">Home</a>
-            <a href="pricelist.html">Pricelist</a>
-            <a href="contact.html">Contact</a>
-            <a href="checklist.html">Policy</a>
-            <a href="https://www.fresha.com/" target="_blank">Book Appointment</a>
-    </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
-        </header>
-    <main>
-    <div class="flex-wrapper">
-    <div class="price-card">
-        <div class="pricelist">
-            <div class="pl-header"><h1>Pricelist</h1></div>
-            <h2>Gel Nails Full Set/ Refill</h2>
-            <div class="services">Size S</div><div class="prices">€55</div>
-            <hr>
-            <div class="services">Size M</div><div class="prices">€60</div>
-            <hr>
-            <div class="services">Size L</div><div class="prices">€65</div>
-            <h2>BIAB</h2>
-            <div class="services">Size S</div><div class="prices">€45</div>
-            <hr>
-            <div class="services">Size M</div><div class="prices">€50</div>
-            <hr>
-            <div class="services">Size L</div><div class="prices">€55</div>
-            <h2>Extras</h2>
-            <div class="services">Nail Repair</div><div class="prices">€7/Nail</div>
-            <hr>
-            <div class="services">Nail Art</div><div class="prices">from €5</div>
-            <hr>
-            <div class="services">French Tip</div><div class="prices">€5</div>
-            <hr>
-            <div class="services">Ombre</div><div class="prices">€5</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--Google Fonts-->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+        </style>
+        <!--Favicons-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/assets/favicons/site.webmanifest">
+        <title>The Modern Manicure Co.</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="assets/photos/logonude.png">
             </div>
-    </div>
-    </div>
-    </main>
-    <footer class="footer">
-        <div class="social">
-            <a href="https://www.facebook.com/themodernmanicureco" class="fa-brands fa-facebook-f" target="_blank"></a>
-            <a href="https://www.instagram.com/themodernmanicureco/" class="fa-brands fa-instagram" target="_blank"></a>
-            <a><i class="fa-solid fa-phone"></i>+353 89 2020345<i class="fa-solid fa-envelope"></i> nails@modernmanicure.ie</a>
-            <a>&copy; 2024 The Modern Manicure Co.</a>
-        </div>
-    </footer>
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
+            <hr>
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active">Menu</a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks" class="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="pricelist.html">Pricelist</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="checklist.html">Policy</a>
+                    <a href="https://www.fresha.com/" target="_blank">Book Appointment</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+        </header>
+        <main>
+            <div class="price-wrapper">
+                <div class="price-card">
+                    <div class="pricelist">
+                        <div class="pl-header">
+                            <h1>Pricelist</h1>
+                        </div>
+                        <h2>Gel Nails Full Set/ Refill</h2>
+                        <div class="services">Size S</div>
+                        <div class="prices">€55</div>
+                        <hr>
+                        <div class="services">Size M</div>
+                        <div class="prices">€60</div>
+                        <hr>
+                        <div class="services">Size L</div>
+                        <div class="prices">€65</div>
+                        <h2>BIAB</h2>
+                        <div class="services">Size S</div>
+                        <div class="prices">€45</div>
+                        <hr>
+                        <div class="services">Size M</div>
+                        <div class="prices">€50</div>
+                        <hr>
+                        <div class="services">Size L</div>
+                        <div class="prices">€55</div>
+                        <h2>Extras</h2>
+                        <div class="services">Nail Repair</div>
+                        <div class="prices">€7/Nail</div>
+                        <hr>
+                        <div class="services">Nail Art</div>
+                        <div class="prices">from €5</div>
+                        <hr>
+                        <div class="services">French Tip</div>
+                        <div class="prices">€5</div>
+                        <hr>
+                        <div class="services">Ombre</div>
+                        <div class="prices">€5</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="social">
+                <a href="https://www.facebook.com/themodernmanicureco" class="fa-brands fa-facebook-f" target="_blank"></a>
+                <a href="https://www.instagram.com/themodernmanicureco/" class="fa-brands fa-instagram" target="_blank"></a>
+                <a>
+                    <i class="fa-solid fa-phone"></i>+353 89 2020345 <i class="fa-solid fa-envelope"></i> nails@modernmanicure.ie </a>
+                <a>&copy; 2024 The Modern Manicure Co.</a>
+            </div>
+        </footer>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
         </script>
-</body>
+    </body>
 </html>
