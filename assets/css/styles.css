@@ -271,7 +271,7 @@ textarea {
     width: 100%; /* Full width */
     padding: 5px; /* Some padding */
     border: 1px solid rgb(0, 0, 0); /*Border color */
-    border-radius: 5px; /* Rounded borders */
+    border-radius: 15px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
@@ -281,15 +281,21 @@ textarea {
 input[type="submit"][value="Submit"]{
     background-color: rgb(0, 0, 0);
     color: white;
-    margin-left: 530px;
+    border-radius: 20px;
+    margin-left:30%;
+    width:120px;
+    height: 50px;
+    font-size: 20px;
+    font-family:"Bodoni Moda", serif ;
 }
 
 
 
 /* Style the submit button with a specific background color etc */
 .message-header {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
+    font-family:"Bodoni Moda", serif ;
 }
 
 /* Add a background color and some padding around the form */
@@ -787,8 +793,8 @@ h2:hover {
     }
 
     .price-card {
-        margin: 25px;
-        width: 120%;
+        margin: 0px;
+        width: 100%;
     }
 
     .services{
@@ -815,7 +821,7 @@ h2:hover {
         padding-bottom: 30%;
         position: relative;
         height: 0;
-        margin: 20px;
+        margin: 10px;
         margin-top:30px;
     }
     
@@ -898,5 +904,18 @@ h2:hover {
     .gdpr-contact{
         text-align: right;
         margin-top:70px;
+    }
+
+    .contact{
+        margin:0px;
+        width:100%;
+    }
+
+    input[type="submit"][value="Submit"]{
+        border-radius: 20px;
+        width:100px;
+        height: 40px;
+        font-size: 20px;
+        margin-left: 35%;
     }
 }
