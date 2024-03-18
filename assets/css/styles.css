@@ -154,7 +154,7 @@ hr {
     padding: 20px;
     margin-left: 250px;
     width: 100%;
-    height: 850px;
+    height: 900px;
     font-family: "Bodoni Moda", serif;
 }
 
@@ -317,6 +317,7 @@ label {
 
     .pricelist {
         max-width: 60%;
+        height:auto;
     }
 
     h2:hover {
@@ -349,6 +350,7 @@ label {
 
 .pricelist {
     max-width: 60%;
+    height:auto;
 }
 
 h2:hover {
