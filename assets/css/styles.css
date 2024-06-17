@@ -60,8 +60,7 @@ hr {
 }
 
 .topnav {
-    color: rgb(157, 131, 109);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
+    color: rgb(210, 175, 153);
     text-align: center;
     justify-content: space-between;
     padding: 10px;
@@ -98,10 +97,6 @@ hr {
 
 .welcome h1 {
     text-align: center;
-}
-
-.consent{
-    
 }
 
 .signature {
@@ -311,6 +306,10 @@ label {
 
 /* Large devices over 1281px */
 @media (min-width: 1281px) {
+    .topnav{
+        box-shadow: 1px 3px 3px rgba(209, 175, 153);
+    }
+
     .icon,
     .active {
         display: none;
@@ -347,6 +346,7 @@ label {
 .topnav a{
     width:100%;
     padding:50px;
+    background-color: rgb(209, 175, 135);
 }
 
 .pricelist {
@@ -375,7 +375,6 @@ h2:hover {
     /* Style the navigation menu */
     .topnav {
         overflow: hidden;
-        background-color: rgb(189, 164, 144);
         position: relative;
     }
 
@@ -386,6 +385,7 @@ h2:hover {
 
     /* Style navigation menu links */
     .topnav a {
+        background-color: rgb(209, 175, 153);
         color: white;
         padding: 14px 16px;
         text-decoration: none;
@@ -397,7 +397,6 @@ h2:hover {
 
     /* Style the hamburger menu */
     .topnav a.icon {
-        background: rgb(189, 164, 144);
         display: block;
         position: absolute;
         right: 0;
@@ -412,7 +411,6 @@ h2:hover {
 
     /* Style the active link (or home/logo) */
     .active {
-        background-color: rgb(189, 164, 144);
         color: white;
         text-align: left;
     }
@@ -526,7 +524,7 @@ h2:hover {
     /* Style the navigation menu */
     .topnav {
         overflow: hidden;
-        background-color: rgb(189, 164, 144);
+        background-color: rgb(209, 175, 153);
         position: relative;
     }
 
@@ -548,7 +546,6 @@ h2:hover {
 
     /* Style the hamburger menu */
     .topnav a.icon {
-        background: rgb(189, 164, 144);
         display: block;
         position: absolute;
         right: 0;
@@ -563,7 +560,7 @@ h2:hover {
 
     /* Style the active link (or home/logo) */
     .active {
-        background-color: rgb(189, 164, 144);
+        background-color: rgb(209, 175, 153);
         color: white;
         text-align: left;
     }
@@ -733,7 +730,7 @@ h2:hover {
     /* Style the navigation menu */
     .topnav {
         overflow: hidden;
-        background-color: rgb(189, 164, 144);
+        background-color: rgb(210, 175, 153);
         position: relative;
         width: 100%;
         margin:0;
@@ -759,7 +756,7 @@ h2:hover {
 
     /* Style the hamburger menu */
     .topnav a.icon {
-        background: rgb(189, 164, 144);
+        background: rgb(210, 175, 153);
         display: block;
         position: absolute;
         right: 0;
@@ -774,7 +771,7 @@ h2:hover {
 
     /* Style the active link (or home/logo) */
     .active {
-        background-color: rgb(189, 164, 144);
+        background-color: rgb(210, 175, 153);
         color: white;
     }
 
@@ -808,7 +805,7 @@ h2:hover {
     }
 
     .cancellation{
-        background-color: rgb(189, 164, 144);
+        background-color: rgb(210, 175, 153);
         width: 100%;
         padding: 15px;
         border-radius: 20px;
@@ -820,7 +817,7 @@ h2:hover {
     }
     
     .gdpr{
-        background-color: rgb(189, 164, 144);
+        background-color: rgb(210, 175, 153);
         width: 100%;
         padding: 15px;
         border-radius: 20px;
