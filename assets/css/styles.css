@@ -612,7 +612,7 @@ h2:hover {
         width: 300px;
         justify-content: center;
         margin-left:-9px;
-        margin-top: -30px;
+        margin-top: -10px;
     }
     
     .navigation {
@@ -738,7 +738,7 @@ h2:hover {
         width: 100%;
         margin:0;
         margin-left:-11px;
-        margin-top: -50px;
+        margin-top: -20px;
     }
 
     /* Hide the links inside the navigation menu (except for logo/home) */
