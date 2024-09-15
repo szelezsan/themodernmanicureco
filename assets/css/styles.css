@@ -1050,6 +1050,7 @@ h2:hover {
         border-radius: 20px;
         border: none;
         color: rgb(126, 105, 88);
+        width: 150px;
     }
     
     button a {
