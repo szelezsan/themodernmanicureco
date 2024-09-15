@@ -1215,6 +1215,49 @@ h2:hover {
         bottom: 10px;
     }
 
+    /* Callout box - fixed position at the bottom of the page */
+.callout {
+    position: absolute;
+    bottom: 35px;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+  }
+  
+  /* Callout header */
+  .callout-header {
+    padding: 10px 10px;
+    background: #604733;
+    font-size: 15px;
+    color:#e5ceb7;
+    font-family: "Abril Fatface", serif;
+  }
+  
+  /* Callout container/body */
+  .callout-container {
+    padding: 10px;
+    justify-content: center;
+    background-color: #e5ceb7;
+    color:#604733;
+    font-size: 15px;
+    font-family: "Abril Fatface", serif;
+  }
+  
+  /* Close button */
+  .closebtn {
+    position:absolute;
+    top: 5px;
+    right: 15px;
+    color: #e5ceb7;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Change color on mouse-over */
+  .closebtn:hover {
+    color: lightgrey;
+  } 
+
     /* Footer */
     .footer{
         display: grid;
