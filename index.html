@@ -27,7 +27,7 @@
                     <h2 class="signature">Home Based Nail Salon</h2>
                     <div><button><a class="booking" href="https://vev.co/the-modern-manicure-co-ie" target="_blank">Book now</a></button>
                     <button><a class="booking" href="https://modernmanicure.ie/consent.html" target="_blank">Consent From</a></button></div>
-                  </div>
+            </div>
             <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <!-- Top Navigation Menu -->
@@ -50,8 +50,6 @@
         </header>
    
         <main>
-            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-ad94d741-e2ef-43b3-b969-7a5293f05a03" data-elfsight-app-lazy></div>
             <div class="flex-wrapper">
                 <div class="welcome">
                     <h1>Welcome to Modern Manicure Co.</h1>
@@ -84,6 +82,8 @@
                     </div>
                 </div>
             </div>
+
+
              <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -115,6 +115,7 @@
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
 
+
     <script>
         let slideIndex = 0;
 showSlides();
@@ -136,7 +137,7 @@ function showSlides() {
         <footer class="footer">
             <div class="social">
                 <a href="https://www.facebook.com/themodernmanicureco" class="fa-brands fa-facebook-f" target="_blank"></a> Facebook
-                <a href="https://www.instagram.com/themodernmanicureco/" class="fa-brands fa-instagram" target="_blank"></a> Instagram
+                <a href="https://www.instagram.com/modernmanicureco/" class="fa-brands fa-instagram" target="_blank"></a> Instagram
                 <a>
                     <i class="fa-solid fa-phone"></i>+353 89 2020 345 <i class="fa-solid fa-envelope"></i>nails@modernmanicure.ie
                 </a>
@@ -155,5 +156,28 @@ function showSlides() {
                 }
             }
         </script>
+         <button onclick="topFunction()" id="myBtn" title="Go to top">Back to the Top</button> 
+
+         <script>
+         // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+</script>
     </body>
 </html>
